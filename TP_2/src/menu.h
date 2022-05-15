@@ -14,6 +14,14 @@
  * @return opcion
  */
 int menu();
+/**
+ * @brief Hardcodea los datos
+ *
+ * @param list
+ * @param id
+ * @param contador
+ * @return -1 ERROR O OK
+ */
 int hardcode(Passenger* list, int* id, int* contador);
 
 #endif /* MENU_H_ */

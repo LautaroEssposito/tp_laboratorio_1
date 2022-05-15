@@ -2,25 +2,35 @@
 #define INPUT_H_
 
 /**
- * @brief Su funcion es pedir la opcion del menu validada entre 1 y 5
+ * @brief Toma un entero, muestra un mensaje, uno de error y esta validada por min y max
  *
- * @return opcion
+ * @param integer
+ * @param message
+ * @param messageMistake
+ * @param min
+ * @param max
+ * @return -1 ERROR O OK
  */
 int tomarEntero(int* integer, char* message, char* messageMistake, int min, int max);
 /**
- * @brief Su funcion es validar un tipo de dato flotante
+ * @brief Toma un flotante, muestra un mensaje, uno de error y esta validada por min y max
  *
- * @param mensaje
- * @param pResultado
- * @return -1 en caso de error y retorna 0 si esta bien
+ * @param number
+ * @param message
+ * @param messageMistake
+ * @param min
+ * @param max
+ * @return -1 ERROR O OK
  */
 int tomarFlotante(float* number, char* message, char* messageMistake, float min, float max);
 /**
- * @brief Su funcion es validar un tipo de dato de caracteres
+ * @brief  Toma una cadena con un mensaje, tira un mensaje de error y tiene un maximo de caracteres
  *
- * @param mensaje
- * @param pResultado
- * @return -1 en caso de error y retorna 0 si esta bien
+ * @param chain
+ * @param message
+ * @param messageMistake
+ * @param max
+ * @return -1 ERROR O OK
  */
 int tomarString(char* chain, char* message, char* messageMistake, int max);
 

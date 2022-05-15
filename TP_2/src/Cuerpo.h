@@ -7,7 +7,11 @@
 
 #ifndef CUERPO_H_
 #define CUERPO_H_
-
+/**
+ * @brief Muestra el main
+ *
+ *
+ */
 int Cuerpo(void);
 
 #endif /* CUERPO_H_ */
